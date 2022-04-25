@@ -1,32 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@lioumangdean 
-lioumangdean
-/
-TEST
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-TEST/install.sh
-@lioumangdean
-lioumangdean Update install.sh
-Latest commit 3553b4a 34 minutes ago
- History
- 1 contributor
-229 lines (203 sloc)  5.72 KB
-   
 #!/bin/sh
 export PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 
@@ -256,16 +227,3 @@ Download
 InstallSock5
 InstallPanel
 check
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
