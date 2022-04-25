@@ -1,3 +1,32 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@lioumangdean 
+lioumangdean
+/
+TEST
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+TEST/install.sh
+@lioumangdean
+lioumangdean Update install.sh
+Latest commit 3553b4a 34 minutes ago
+ History
+ 1 contributor
+229 lines (203 sloc)  5.72 KB
+   
 #!/bin/sh
 export PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 
@@ -118,13 +147,13 @@ mv /root/Socks5/s5 /usr/local/bin/
 chmod +x /usr/local/bin/s5
 
 #设置默认用户名、默认开启帐号验证
-uname="123456"
-upasswd="654321"
-port="5555"
+uname="cc"
+upasswd="cc123"
+port="12092"
 confFile=/etc/opt/ss5/ss5.conf
 echo -e $uname $upasswd >> /etc/opt/ss5/ss5.passwd
-sed -i '87c auth    0.0.0.0/0               -               u' $confFile
-sed -i '203c permit u	0.0.0.0/0	-	0.0.0.0/0	-	-	-	-	-' $confFile
+sed -i '87c auth    0.0.0.0/0               -               -' $confFile
+sed -i '203c permit -	0.0.0.0/0	-	0.0.0.0/0	-	-	-	-	-' $confFile
 
 
 #添加开机启动
@@ -227,3 +256,16 @@ Download
 InstallSock5
 InstallPanel
 check
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
